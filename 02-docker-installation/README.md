@@ -8,9 +8,9 @@ By the end of this day, you should be able to:
 - Run your first Docker container
 - Verify that Docker is working correctly
 
----
 
-# Day 2 – Docker Installation
+
+
 
 ## Overview
 
@@ -22,7 +22,7 @@ Docker can be installed on different operating systems:
 
 The following guide is **specifically for Windows users using WSL2 with Ubuntu LTS**.
 
----
+----
 
 # Install Docker on Windows using WSL2
 
@@ -44,7 +44,7 @@ After installation:
 
 Now you have a **Linux environment running inside Windows using WSL2**.
 
----
+----
 
 ## Step 2 – Install Docker Desktop
 
@@ -61,7 +61,7 @@ During installation make sure this option is enabled:
 
 Finish installation and restart your computer if required.
 
----
+----
 
 ## Step 3 – Enable WSL Integration
 
@@ -77,7 +77,7 @@ Enable integration for:
 
 Click **Apply & Restart**.
 
----
+----
 
 ## Step 4 – Update Ubuntu and Install Dependencies
 
@@ -112,6 +112,7 @@ docker run hello-world
 Expected output:
 
 Hello from Docker!
+
 This message shows that your installation appears to be working correctly.
 ---
 
