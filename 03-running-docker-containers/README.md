@@ -1,11 +1,8 @@
 # 03-running-docker-containers
-## Day 3 Docker Learning
+## Day 3 Running Docker Containers
 
-### Topic:
-Running Docker containers: first container, background, interactive
+<!-- Add your content here -->
 
-### Notes / Examples:
-- 
+---
 
-[⬅ Previous](../02-docker-installation/README.md)
-[Next ➡](../04-container-management/README.md)
+[⬅ Previous: Day 2 Docker Installation](../02-docker-installation/) | [Next ➡ Day 4 Container Management](../04-container-management/)

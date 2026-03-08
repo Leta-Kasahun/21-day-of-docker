@@ -1,11 +1,8 @@
 # 10-managing-files
-## Day 10 Docker Learning
+## Day 10 Managing Files
 
-### Topic:
-Managing files in Docker: copy files/folders, manage image files
+<!-- Add your content here -->
 
-### Notes / Examples:
-- 
+---
 
-[⬅ Previous](../09-writing-dockerfiles/README.md)
-[Next ➡](../11-dockerfile-commands/README.md)
+[⬅ Previous: Day 9 Writing Dockerfiles](../09-writing-dockerfiles/) | [Next ➡ Day 11 Dockerfile Commands](../11-dockerfile-commands/)

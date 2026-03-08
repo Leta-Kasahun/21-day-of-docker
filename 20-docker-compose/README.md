@@ -1,10 +1,8 @@
 # 20-docker-compose
-## Day 20 Docker Learning
+## Day 20 Docker Compose
 
-### Topic:
-Docker Compose: multi-container apps, compose.yaml, dependencies
+<!-- Add your content here -->
 
-### Notes / Examples:
-- 
+---
 
-[⬅ Previous](../19-multistage-builds/README.md)
+[⬅ Previous: Day 19 Multistage Builds](../19-multistage-builds/) | 

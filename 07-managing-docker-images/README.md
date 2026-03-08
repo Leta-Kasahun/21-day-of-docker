@@ -1,11 +1,8 @@
 # 07-managing-docker-images
-## Day 7 Docker Learning
+## Day 7 Managing Docker Images
 
-### Topic:
-Managing Docker Images: pull, tag, list, remove images
+<!-- Add your content here -->
 
-### Notes / Examples:
-- 
+---
 
-[⬅ Previous](../06-cleaning-containers/README.md)
-[Next ➡](../08-distributing-images/README.md)
+[⬅ Previous: Day 6 Cleaning Containers](../06-cleaning-containers/) | [Next ➡ Day 8 Distributing Images](../08-distributing-images/)

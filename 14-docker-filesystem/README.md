@@ -1,11 +1,8 @@
 # 14-docker-filesystem
-## Day 14 Docker Learning
+## Day 14 Docker Filesystem
 
-### Topic:
-Docker Filesystem: mount host files, volume usage, persistent data
+<!-- Add your content here -->
 
-### Notes / Examples:
-- 
+---
 
-[⬅ Previous](../13-docker-caching/README.md)
-[Next ➡](../15-docker-volumes/README.md)
+[⬅ Previous: Day 13 Docker Caching](../13-docker-caching/) | [Next ➡ Day 15 Docker Volumes](../15-docker-volumes/)

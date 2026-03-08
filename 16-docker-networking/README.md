@@ -1,11 +1,8 @@
 # 16-docker-networking
-## Day 16 Docker Learning
+## Day 16 Docker Networking
 
-### Topic:
-Docker Networking: ports, mapping, expose services
+<!-- Add your content here -->
 
-### Notes / Examples:
-- 
+---
 
-[⬅ Previous](../15-docker-volumes/README.md)
-[Next ➡](../17-docker-networks/README.md)
+[⬅ Previous: Day 15 Docker Volumes](../15-docker-volumes/) | [Next ➡ Day 17 Docker Networks](../17-docker-networks/)

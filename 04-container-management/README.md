@@ -1,11 +1,8 @@
 # 04-container-management
-## Day 4 Docker Learning
+## Day 4 Container Management
 
-### Topic:
-Container Management: inspect, logs, restart, pause, stop
+<!-- Add your content here -->
 
-### Notes / Examples:
-- 
+---
 
-[⬅ Previous](../03-running-docker-containers/README.md)
-[Next ➡](../05-debugging-containers/README.md)
+[⬅ Previous: Day 3 Running Docker Containers](../03-running-docker-containers/) | [Next ➡ Day 5 Debugging Containers](../05-debugging-containers/)

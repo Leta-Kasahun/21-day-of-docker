@@ -1,11 +1,8 @@
 # 06-cleaning-containers
-## Day 6 Docker Learning
+## Day 6 Cleaning Containers
 
-### Topic:
-Cleaning Containers: remove containers, prune, remove images
+<!-- Add your content here -->
 
-### Notes / Examples:
-- 
+---
 
-[⬅ Previous](../05-debugging-containers/README.md)
-[Next ➡](../07-managing-docker-images/README.md)
+[⬅ Previous: Day 5 Debugging Containers](../05-debugging-containers/) | [Next ➡ Day 7 Managing Docker Images](../07-managing-docker-images/)

@@ -1,11 +1,8 @@
 # 11-dockerfile-commands
-## Day 11 Docker Learning
+## Day 11 Dockerfile Commands
 
-### Topic:
-Dockerfile commands: ENV, ARG, USER, WORKDIR, best practices
+<!-- Add your content here -->
 
-### Notes / Examples:
-- 
+---
 
-[⬅ Previous](../10-managing-files/README.md)
-[Next ➡](../12-docker-security/README.md)
+[⬅ Previous: Day 10 Managing Files](../10-managing-files/) | [Next ➡ Day 12 Docker Security](../12-docker-security/)

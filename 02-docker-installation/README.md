@@ -1,11 +1,8 @@
 # 02-docker-installation
-## Day 2 Docker Learning
+## Day 2 Docker Installation
 
-### Topic:
-Docker Installation & Configuration, Linux WSL setup, version check
+<!-- Add your content here -->
 
-### Notes / Examples:
-- 
+---
 
-[⬅ Previous](../01-docker-introduction/README.md)
-[Next ➡](../03-running-docker-containers/README.md)
+[⬅ Previous: Day 1 Docker Learning](../01-docker-introduction/) | [Next ➡ Day 3 Running Docker Containers](../03-running-docker-containers/)

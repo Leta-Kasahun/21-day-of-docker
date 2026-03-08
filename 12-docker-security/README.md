@@ -1,11 +1,8 @@
 # 12-docker-security
-## Day 12 Docker Learning
+## Day 12 Docker Security
 
-### Topic:
-Docker Security: secure images, non-root users, package updates
+<!-- Add your content here -->
 
-### Notes / Examples:
-- 
+---
 
-[⬅ Previous](../11-dockerfile-commands/README.md)
-[Next ➡](../13-docker-caching/README.md)
+[⬅ Previous: Day 11 Dockerfile Commands](../11-dockerfile-commands/) | [Next ➡ Day 13 Docker Caching](../13-docker-caching/)

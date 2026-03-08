@@ -1,11 +1,8 @@
 # 09-writing-dockerfiles
-## Day 9 Docker Learning
+## Day 9 Writing Dockerfiles
 
-### Topic:
-Writing Dockerfiles: FROM, RUN, COPY, CMD, entrypoint
+<!-- Add your content here -->
 
-### Notes / Examples:
-- 
+---
 
-[⬅ Previous](../08-distributing-images/README.md)
-[Next ➡](../10-managing-files/README.md)
+[⬅ Previous: Day 8 Distributing Images](../08-distributing-images/) | [Next ➡ Day 10 Managing Files](../10-managing-files/)

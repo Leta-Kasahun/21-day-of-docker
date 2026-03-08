@@ -1,11 +1,8 @@
 # 05-debugging-containers
-## Day 5 Docker Learning
+## Day 5 Debugging Containers
 
-### Topic:
-Debugging Containers: exec, bash commands, troubleshooting
+<!-- Add your content here -->
 
-### Notes / Examples:
-- 
+---
 
-[⬅ Previous](../04-container-management/README.md)
-[Next ➡](../06-cleaning-containers/README.md)
+[⬅ Previous: Day 4 Container Management](../04-container-management/) | [Next ➡ Day 6 Cleaning Containers](../06-cleaning-containers/)

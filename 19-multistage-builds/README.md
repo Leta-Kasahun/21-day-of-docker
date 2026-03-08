@@ -1,11 +1,8 @@
 # 19-multistage-builds
-## Day 19 Docker Learning
+## Day 19 Multistage Builds
 
-### Topic:
-Multi-stage Builds: single vs multi-stage, reduce image size
+<!-- Add your content here -->
 
-### Notes / Examples:
-- 
+---
 
-[⬅ Previous](../18-advanced-images/README.md)
-[Next ➡](../20-docker-compose/README.md)
+[⬅ Previous: Day 18 Advanced Images](../18-advanced-images/) | [Next ➡ Day 20 Docker Compose](../20-docker-compose/)

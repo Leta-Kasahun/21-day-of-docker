@@ -1,11 +1,8 @@
 # 08-distributing-images
-## Day 8 Docker Learning
+## Day 8 Distributing Images
 
-### Topic:
-Distributing Docker Images: push/pull to registry, save/load image
+<!-- Add your content here -->
 
-### Notes / Examples:
-- 
+---
 
-[⬅ Previous](../07-managing-docker-images/README.md)
-[Next ➡](../09-writing-dockerfiles/README.md)
+[⬅ Previous: Day 7 Managing Docker Images](../07-managing-docker-images/) | [Next ➡ Day 9 Writing Dockerfiles](../09-writing-dockerfiles/)

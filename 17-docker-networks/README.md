@@ -1,11 +1,8 @@
 # 17-docker-networks
-## Day 17 Docker Learning
+## Day 17 Docker Networks
 
-### Topic:
-Docker Networks: create networks, connect containers, IP ranges
+<!-- Add your content here -->
 
-### Notes / Examples:
-- 
+---
 
-[⬅ Previous](../16-docker-networking/README.md)
-[Next ➡](../18-advanced-images/README.md)
+[⬅ Previous: Day 16 Docker Networking](../16-docker-networking/) | [Next ➡ Day 18 Advanced Images](../18-advanced-images/)

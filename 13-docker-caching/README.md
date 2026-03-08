@@ -1,11 +1,8 @@
 # 13-docker-caching
-## Day 13 Docker Learning
+## Day 13 Docker Caching
 
-### Topic:
-Docker Caching: caching, ordering instructions, optimization
+<!-- Add your content here -->
 
-### Notes / Examples:
-- 
+---
 
-[⬅ Previous](../12-docker-security/README.md)
-[Next ➡](../14-docker-filesystem/README.md)
+[⬅ Previous: Day 12 Docker Security](../12-docker-security/) | [Next ➡ Day 14 Docker Filesystem](../14-docker-filesystem/)

@@ -1,11 +1,8 @@
 # 18-advanced-images
-## Day 18 Docker Learning
+## Day 18 Advanced Images
 
-### Topic:
-Advanced Images: optimizing, multi-platform, layer exploration
+<!-- Add your content here -->
 
-### Notes / Examples:
-- 
+---
 
-[⬅ Previous](../17-docker-networks/README.md)
-[Next ➡](../19-multistage-builds/README.md)
+[⬅ Previous: Day 17 Docker Networks](../17-docker-networks/) | [Next ➡ Day 19 Multistage Builds](../19-multistage-builds/)
