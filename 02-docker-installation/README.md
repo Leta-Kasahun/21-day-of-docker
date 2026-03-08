@@ -22,7 +22,7 @@ For DevOps learning, **Linux (especially Ubuntu)** is commonly used.
 
 ---
 
-# 2️⃣ Install Docker on Ubuntu / Linux
+#Install Docker on Ubuntu / Linux
 
 ## Step 1 – Update the system
 
