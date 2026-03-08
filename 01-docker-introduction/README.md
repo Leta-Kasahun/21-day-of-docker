@@ -20,6 +20,6 @@ docker compose version
 ```
 - 
 
-[Next ➡](../02-docker-installation/README.md)
+
                                                                                             
-   | [⬅ Previous: Day 00 – Overview](../README.md) | **Next: [Day 02 – Docker Installation](../02-docker-installation/)* 
+   [⬅ Previous: Day 00 – Overview](../README.md) |                                                [Next ➡ Day 02 – Docker Installation](../02-docker-installation/)* 
