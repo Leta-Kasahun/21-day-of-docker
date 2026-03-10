@@ -1,6 +1,6 @@
 # 03-running-docker-containers
 
-## Goal of Day 3
+## By the end of this day , you should able to:
 - Understand what **Docker containers** are.
 - Learn how to **run, start, and list containers**.
 - Practice **basic Docker CLI commands**.
