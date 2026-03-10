@@ -1,12 +1,9 @@
 # 03-running-docker-containers
 ## Day 3 Running Docker Containers
 
-# 03-running-docker-containers
-## Day 3 Running Docker Containers
-
 ### Goal of Day 3
 - Understand what **containers** are.
-- Learn how to **run, stop, and manage containers**.
+- Learn how to **run, start and lists container**.
 - Practice **basic Docker commands** and interactive containers.
 
 ---
@@ -43,6 +40,6 @@ teku@DESKTOP-E6CA0FQ:~$ docker run -d full-stack-api
 -docker run → creates and starts a new container.
 
 - -d → detached mode, runs the container in the background.
-
 -full-stack-api → the Docker image being run
+---
 [⬅ Previous: Day 2 Docker Installation](../02-docker-installation/) | [Next ➡ Day 4 Container Management](../04-container-management/)
