@@ -1,9 +1,5 @@
 # 06-cleaning-containers
 ## Day 6 Cleaning Containers
-
-# 06-cleaning-containers
-## Day 6 Cleaning Containers
-
 ### By the end of this day, you should be able to:
 
 - Understand how to remove stopped containers  
