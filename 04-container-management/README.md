@@ -6,7 +6,7 @@
 - Understand container lifecycle and states
 
 - Learn how to start, stop, restart, and remove containers
-
+  
 - Manage multiple containers efficiently
 
 - Use Docker CLI commands for container management
