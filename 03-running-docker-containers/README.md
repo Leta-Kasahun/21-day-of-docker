@@ -5,7 +5,7 @@
 - Learn how to **run, start, and list containers**.
 - Practice **basic Docker CLI commands**.
 - Understand the relationship between **Docker images and containers**.
-
+  
 ---
 
 # What are Docker Containers?
