@@ -2,25 +2,60 @@
 ## Day 4 Container Management
 
 ### By the end of this day , you should be able to: 
-- Understand **container lifecycle**: create, start, stop, restart, remove.
-- Learn **how to manage running and stopped containers**.
-- Practice **Docker commands** for container management.
+
+- Understand container lifecycle and states
+
+- Learn how to start, stop, restart, and remove containers
+
+- Manage multiple containers efficiently
+
+- Use Docker CLI commands for container management
+
+- Understand container naming and labeling
+
+### What is Container Management?
+Container management refers to controlling the lifecycle and behavior of containers after they're created. Just like managing running applications on your computer, containers need to be:
+
+- Started and stopped
+
+- Paused and resumed
+
+- Restarted when needed
+
+- Removed when no longer needed
+
+- Monitored for resource usage
+
+- Container Lifecycle States
 
 ---
-
-## What is Container Management?
-
-Container management is about **controlling and organizing your containers**:
-
-- **Start/Stop/Restart** containers
-- **Inspect container status**
-- **Remove containers**
-- **Check logs** and resource usage
 
 Containers are **instances of images**. You can have **multiple containers from the same image**, each running independently.
 
 ---
-
+###Container Lifecycle States
+```bash
+┌─────────────┐
+│   CREATED   │  ← Container created but not running
+└─────────────┘
+       │
+       ▼
+┌─────────────┐
+│   RUNNING   │  ← Container actively running
+└─────────────┘
+       │
+   ┌───┴───┐
+   ▼       ▼
+┌─────────┐ ┌─────────┐
+│ PAUSED  │ │ STOPPED │ ← Processes frozen  ← Container stopped but exists
+└─────────┘ └─────────┘
+       │         │
+       └───┬─────┘
+           ▼
+    ┌─────────────┐
+    │   REMOVED   │  ← Container deleted
+    └─────────────┘
+```
 ## Basic Docker Commands for Container Management
 
 ### 1️⃣ List Containers
