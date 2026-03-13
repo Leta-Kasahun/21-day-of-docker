@@ -43,7 +43,18 @@ Allows developers and servers to **get the same application environment quickly*
 
 ### Real-world example
 A developer pulls an image from Docker Hub instead of building the application manually.
-
+```bash
+teku@DESKTOP-E6CA0FQ:~/dockerfile-demo$ docker pull node:20-alpine
+20-alpine: Pulling from library/node
+589002ba0eae: Pull complete
+ed2fdcee5269: Pull complete
+7ad115895a6a: Pull complete
+9d10d4687fae: Pull complete
+Digest: sha256:b88333c42c23fbd91596ebd7fd10de239cedab9617de04142dde7315e3bc0afa
+Status: Downloaded newer image for node:20-alpine
+docker.io/library/node:20-alpine
+teku@DESKTOP-E6CA0FQ:~/dockerfile-demo$
+```
 ---
 
 # 2 Docker Push
@@ -61,7 +72,18 @@ So other developers, servers, or CI/CD pipelines can download and run the same i
 
 ### Real-world example
 A team builds an image locally and pushes it so production servers can pull it.
-
+```bash
+teku@DESKTOP-E6CA0FQ:~/dockerfile-demo$ docker push  letakasahun/myapp:v1
+The push refers to repository [docker.io/letakasahun/myapp]
+4a2ff1b3de33: Pushed
+27cfcaf11561: Pushed
+2fd0c1d1e8b0: Mounted from library/python
+2d94d223d76c: Mounted from library/python
+ec442668ab9b: Mounted from library/python
+a257f20c716c: Mounted from library/python
+v1: digest: sha256:5c3c962fd7c9e6eed35f60c7955cab195ded6fc40a51e96bb130d7ffd6a2d077 size: 1572
+teku@DESKTOP-E6CA0FQ:~/dockerfile-demo$
+```
 ---
 
 # 3 Docker Tag
@@ -82,7 +104,10 @@ A project may have:
 - app:v1.0
 - app:v2.0
 - app:latest
-
+```bash
+teku@DESKTOP-E6CA0FQ:~/dockerfile-demo$ docker tag myapp:v1 letakasahun/myapp:v1
+teku@DESKTOP-E6CA0FQ:~/dockerfile-demo$ docker push myapp:v1 letakasahun/myapp:v1
+```
 ---
 
 # 4 Docker Save
