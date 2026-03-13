@@ -79,7 +79,7 @@ teku@DESKTOP-E6CA0FQ:~$
 - Pulled images are stored locally and can be used multiple times for containers.  
 - Smaller images like `alpine` are preferred for lightweight and faster container startup.  
 - Checking `docker images` helps to see which images are available before running or building containers.
-  ```bash
+ ```bash
   teku@DESKTOP-E6CA0FQ:~$ docker rmi node:20-alpine
 Untagged: node:20-alpine
 Untagged: node@sha256:b88333c42c23fbd91596ebd7fd10de239cedab9617de04142dde7315e3bc0afa
