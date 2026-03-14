@@ -54,6 +54,14 @@ COPY . .
 EXPOSE 3000
 CMD ["node", "app.js"]
 ```
+| Instruction | Purpose                               |
+| ----------- | ------------------------------------- |
+| `FROM`      | Defines the base image                |
+| `WORKDIR`   | Sets working directory                |
+| `COPY`      | Copies files into the container       |
+| `RUN`       | Executes commands during build        |
+| `EXPOSE`    | Documents container port              |
+| `CMD`       | Default command when container starts |
 
 ---
 
