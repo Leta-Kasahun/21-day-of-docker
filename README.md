@@ -56,9 +56,8 @@ This repository documents a **20-day Docker learning journey**, covering:
 - Security best practices
 - Advanced image building
 - Docker Compose
-
+  
 ---
-
 # Navigation
 
 ➡ **Start Learning**
