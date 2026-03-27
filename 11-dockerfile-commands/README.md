@@ -25,27 +25,36 @@ CMD python3 my_pipeline.py
 CMD postgres
 ```
 
-# 1. Build the image
+#### 1. Build the image
+```bash
 docker build -t myapp:v1 .
-
-# 2. List Docker images
+```
+#### 2. List Docker images
+```bash
 docker images
+```
 
-# 3. Run the container
+#### 3. Run the container
+```bash
 docker run -d --name myapp-container -p 8000:8000 myapp:v1
+```
+#### 4. Access the app in browser
+#### http://localhost:8000
 
-# 4. Access the app in browser
-# http://localhost:8000
-
-# 5. Check running containers
+#### 5. Check running containers
+```bash
 docker ps
+```
 
-# 6. Override CMD at runtime (optional)
+#### 6. Override CMD at runtime (optional)
+```bash
 docker run myapp:v1 echo "Hello World"
-
-# 7. Stop and remove container
+```
+#### 7. Stop and remove container
+```bash
 docker stop myapp-container
 docker rm myapp-container
+```
 | Command / Dockerfile           | Purpose                                               |
 | ------------------------------ | ----------------------------------------------------- |
 | `CMD python3 my_pipeline.py`   | Runs a Python script when container starts            |
