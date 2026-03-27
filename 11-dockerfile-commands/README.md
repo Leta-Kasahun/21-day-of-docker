@@ -1,14 +1,12 @@
 # 11-dockerfile-commands
 ## Day 11 Dockerfile Commands
 
-### By the end of this day, you should be able to:  
-- Understand the **CMD instruction** and its purpose in Dockerfiles  
-- Know **when containers stop** based on CMD  
-- Learn to run **default commands at container startup**  
-- Understand difference between **CMD and RUN**  
-- Override CMD during `docker run`  
-- Learn **typical usages** like running scripts, applications, or databases  
-
+### By the end of this day, you should be able to:
+- Write a Dockerfile using **best practices**  
+- Use **CMD, WORKDIR, COPY, RUN, ENV, EXPOSE** effectively  
+- Build and run a Python container  
+- Override CMD at runtime  
+- Check container behavior using Docker CLI  
 ---
 
 ## What is CMD in Dockerfiles?
@@ -26,6 +24,28 @@
 CMD python3 my_pipeline.py
 CMD postgres
 ```
+
+# 1. Build the image
+docker build -t myapp:v1 .
+
+# 2. List Docker images
+docker images
+
+# 3. Run the container
+docker run -d --name myapp-container -p 8000:8000 myapp:v1
+
+# 4. Access the app in browser
+# http://localhost:8000
+
+# 5. Check running containers
+docker ps
+
+# 6. Override CMD at runtime (optional)
+docker run myapp:v1 echo "Hello World"
+
+# 7. Stop and remove container
+docker stop myapp-container
+docker rm myapp-container
 | Command / Dockerfile           | Purpose                                               |
 | ------------------------------ | ----------------------------------------------------- |
 | `CMD python3 my_pipeline.py`   | Runs a Python script when container starts            |
