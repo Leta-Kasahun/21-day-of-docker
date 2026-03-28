@@ -35,6 +35,7 @@ Duration: 20 Days
 | Day 18 | Advanced Docker Images | [Open](./18-advanced-images/) |
 | Day 19 | Multi-Stage Builds | [Open](./19-multistage-builds/) |
 | Day 20 | Docker Compose | [Open](./20-docker-compose/) |
+| Day 21 | Full Application Deployment | [Open](./21-full-application-deployment/) |
 
 ---
 
