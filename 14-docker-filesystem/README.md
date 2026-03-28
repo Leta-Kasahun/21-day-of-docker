@@ -86,7 +86,61 @@ To persist data outside the container or share files with the host system, you c
 > Note: Files or directories attached to a running container **are not visible to the host until the container is stopped**.
 
 ---
+## Mounting in Docker (Bind Mounts)
 
+### What is Mounting?
+
+Mounting in Docker means **connecting a folder or file from your host machine (Ubuntu/Windows) into a container**.
+
+👉 It creates a **bridge between your local filesystem and the container filesystem**.
+
+So instead of data living *only inside the container*, it is **shared with your host machine**.
+
+---
+
+### Why Do We Need Mounting?
+
+By default, containers are **temporary**.
+
+- If the container is deleted → all data inside is lost  
+- Changes are not saved outside the container  
+
+👉 Mounting solves this problem.
+
+### Purpose of Mounting
+
+1. **Data Persistence**
+   - Keep data even if container is deleted  
+   - Example: database files  
+
+2. **Development Workflow**
+   - Edit code on your computer → container sees changes instantly  
+   - No need to rebuild image every time  
+
+3. **Sharing Files**
+   - Share config files, logs, or static files  
+
+4. **Separation of Concerns**
+   - Container runs the app  
+   - Host stores important data  
+
+---
+
+### When Do We Use Mounting?
+
+Use mounting when:
+
+- You are **developing an application**
+- You want **live updates (no rebuild)**
+- You need to **store important data (DB, logs)**
+- You want to **share files between host and container**
+
+---
+
+### How Mounting Works
+
+```bash
+docker run -v <host-path>:<container-path> <image>
 ### Using the `-v` Option
 
 Bind mounts are most often created using the `-v` flag:
