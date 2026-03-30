@@ -62,43 +62,6 @@ By the end of this day, you will understand:
 - **Development, staging, and production environments** where networking patterns differ  
 
 ---
-# Networking overview
-
-
-Container networking refers to the ability for containers to connect to and
-communicate with each other, and with non-Docker network services.
-
-Containers have networking enabled by default, and they can make outgoing
-connections. A container has no information about what kind of network it's
-attached to, or whether its network peers are also Docker containers. A
-container only sees a network interface with an IP address, a gateway, a
-routing table, DNS services, and other networking details.
-
-This page describes networking from the point of view of the container,
-and the concepts around container networking.
-
-When Docker Engine on Linux starts for the first time, it has a single
-built-in network called the "default bridge" network. When you run a
-container without the `--network` option, it is connected to the default
-bridge.
-
-Containers attached to the default bridge have access to network services
-outside the Docker host. They use "masquerading" which means, if the
-Docker host has Internet access, no additional configuration is needed
-for the container to have Internet access.
-
-For example, to run a container on the default bridge network, and have
-it ping an Internet host:
-
-```console
-$ docker run --rm -ti busybox ping -c1 docker.com
-PING docker.com (23.185.0.4): 56 data bytes
-64 bytes from 23.185.0.4: seq=0 ttl=62 time=6.564 ms
-
---- docker.com ping statistics ---
-1 packets transmitted, 1 packets received, 0% packet loss
-round-trip min/avg/max = 6.564/6.564/6.564 ms
-```
 
 ## User-defined networks
 
@@ -179,21 +142,6 @@ be the default gateway, it is enough to set its `gw-priority` to `1`.
 $ docker run --network name=gwnet,gw-priority=1 --network anet1 --name myctr myimage
 $ docker network connect anet2 myctr
 ```
-
-## Published ports
-
-When you create or run a container using `docker create` or `docker run`, all
-ports of containers on bridge networks are accessible from the Docker host and
-other containers connected to the same network. Ports are not accessible from
-outside the host or, with the default configuration, from containers in other
-networks.
-
-Use the `--publish` or `-p` flag to make a port available outside the host,
-and to containers in other bridge networks.
-
-For more information about port mapping, including how to disable it and use
-direct routing to containers, see
-[port publishing](/engine/port-publishing/).
 
 ## IP address and hostname
 
