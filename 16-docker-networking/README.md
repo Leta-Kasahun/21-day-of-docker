@@ -1,7 +1,6 @@
 # 16-docker-networking
 ## Day 16 Docker Networking
 
-<!-- Add your content here -->
 
 ---
 
