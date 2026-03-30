@@ -1,0 +1,6 @@
+# app/models.py
+from pydantic import BaseModel
+
+class Note(BaseModel):
+    title: str
+    content: str | None = None
