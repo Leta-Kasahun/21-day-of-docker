@@ -1,7 +1,7 @@
 # Day 21 – Full Stack Application Deployment with Docker 
 
-<img width="3277" height="2206" alt="image" src="https://github.com/user-attachments/assets/675b859f-2f59-4a56-b143-2474d3e1d44b" />
 
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/675b859f-2f59-4a56-b143-2474d3e1d44b" />
 
 ## Project Overview
 This project demonstrates a **production-ready full-stack application** integrating:  
