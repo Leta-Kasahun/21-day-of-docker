@@ -165,4 +165,4 @@ docker compose logs
 
 ---
 
-[⬅ Previous: Day 19 Multistage Builds](../19-multistage-builds/) | 
+[⬅ Previous: Day 19 Multistage Builds](../19-multistage-builds/) | [Next ➡ Day 20 Docker Compose](../21-full-stack-application-deployement/)
