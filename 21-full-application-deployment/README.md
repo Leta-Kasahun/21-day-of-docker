@@ -1,91 +1,68 @@
-# 21-Full Application Deployment
+# 21-Full Stack Application Demo 🚀
 
-## Day 21 – Full Application Deployment with Docker Compose
+![Banner](https://via.placeholder.com/1200x300?text=Full+Stack+App+Demo)
 
-### By the end of this day, you should be able to:
-- Deploy a multi-container application using Docker Compose  
-- Configure volumes and networks for persistent and connected services  
-- Apply security best practices (USER, WORKDIR, minimal permissions)  
-- Troubleshoot service dependencies and startup order  
+## Overview
+This project demonstrates a **production-like full-stack application** using:  
 
----
+- **Frontend:** React with Zustand for state management  
+- **Backend:** FastAPI for REST APIs  
+- **Database:** SQLite for simplicity  
 
-## Key Concepts
-- Docker Compose for multi-service applications  
-- Volumes and persistent storage across containers  
-- Networking between services  
-- Securing containers using best practices  
-- Debugging and troubleshooting deployment issues  
+**Purpose:**  
+- Build and structure a **full-stack application**  
+- Demonstrate **frontend-backend integration**  
+- Practice **production-ready app architecture** with `models`, `controllers`, and `services`  
 
 ---
 
-## Example docker-compose.yml
-
-```yaml
-version: "3.9"
-services:
-  web:
-    build: ./app
-    ports:
-      - "8080:8080"
-    volumes:
-      - app-data:/app/data
-    networks:
-      - appnet
-    user: "1000:1000"
-  db:
-    image: postgres:15
-    environment:
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: appdb
-    volumes:
-      - db-data:/var/lib/postgresql/data
-    networks:
-      - appnet
-
-volumes:
-  app-data:
-  db-data:
-
-networks:
-  appnet:
-```
+## Application Features
+- React frontend consuming FastAPI backend APIs  
+- Backend organized with **models, services, and controllers**  
+- SQLite database for persistent data  
+- Clear and scalable folder structure:  
+  - `frontend/` – React app  
+  - `backend/` – FastAPI app  
+  - `backend/models/`, `backend/controllers/`, `backend/services/`  
+- Secure configuration via **environment variables**  
+- Multi-stage Dockerfile setup for **production readiness**  
 
 ---
 
-## Commands
+## What This Project Demonstrates
+- **Frontend-backend interaction:** Zustand state management + API calls  
+- **Database integration:** SQLite for persistent storage  
+- **Security best practices:** Non-root user, minimal permissions, environment variables  
+- **Production-ready app structure:** Modular, maintainable, and scalable  
 
-```bash
-# Start full application
-docker-compose up -d
+---
 
-# Stop and remove containers
-docker-compose down
-
-# View logs
-docker-compose logs -f
-
-# List volumes
-docker volume ls
-```
+## Lessons Learned
+- How to structure a **full-stack project** for real-world applications  
+- Importance of **environment management** and securing sensitive data  
+- Modular backend development: **models, controllers, services**  
+- Integrating **frontend state management** (Zustand) with backend APIs  
+- Managing **persistent data** in development and production  
+- Production-ready **Docker multi-stage builds** and security concepts  
 
 ---
 
 ## Congratulations! 🎉
 
-You have completed the Docker DataCamp Learning Journal!  
-By now, you have learned:
-- Docker containers, images, and Dockerfiles  
-- Security best practices (USER, WORKDIR)  
-- Networking and volume management  
-- Advanced image builds and multi-stage builds  
-- Multi-container orchestration with Docker Compose  
+**You have completed the Docker Full-Stack Learning Journey!**  
 
-![Congratulations](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
+Through this journey, you have learned:  
+
+- Building and structuring **full-stack applications**  
+- Backend development with **FastAPI** and SQLite  
+- Frontend development with **React** and **Zustand**  
+- **Environment management** and secure coding practices  
+- **Production-ready Docker setup**  
+- Integrating services in a **multi-container workflow**  
+- Debugging, troubleshooting, and optimizing Docker images  
+
 
 ---
 
 ## Navigation
-
 [⬅ Previous: Day 20 Docker Compose](../20-docker-compose/) | [🏁 End of Docker Journal](../README.md)
