@@ -1,0 +1,25 @@
+# Python / Backend
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+*.sqlite3
+backend/data/
+
+# Node / Frontend
+node_modules/
+dist/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Git
+.git
+.gitignore
+
+# OS
+.DS_Store
+Thumbs.db

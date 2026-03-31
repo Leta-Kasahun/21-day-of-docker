@@ -1,0 +1,53 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:15
+    container_name: todo_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: tododb
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    networks:
+      - app_net
+
+  backend:
+    build: ./backend
+    container_name: todo_backend
+    restart: unless-stopped
+    env_file:
+      - ./backend/.env
+    ports:
+      - "8000:8000"
+    volumes:
+      - backend_data:/app/data
+    networks:
+      - app_net
+    depends_on:
+      - db
+    user: "1000:1000"
+
+  frontend:
+    build: ./frontend
+    container_name: todo_frontend
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - frontend_data:/app/node_modules
+    networks:
+      - app_net
+    depends_on:
+      - backend
+
+volumes:
+  db_data:
+  backend_data:
+  frontend_data:
+
+networks:
+  app_net:
+    driver: bridge
