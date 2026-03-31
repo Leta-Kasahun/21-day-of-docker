@@ -1,6 +1,7 @@
 # Day 21 – Full Stack Application Deployment with Docker 
 
-![Full Stack Docker Banner](https://via.placeholder.com/1200x300?text=Full+Stack+App+Demo)
+<img width="3277" height="2206" alt="image" src="https://github.com/user-attachments/assets/675b859f-2f59-4a56-b143-2474d3e1d44b" />
+
 
 ## Project Overview
 This project demonstrates a **production-ready full-stack application** integrating:  
@@ -72,9 +73,7 @@ This journey has taken you from **Day 1 basic Docker concepts** to **Day 21 full
 - Secure environment configuration and best practices  
 - Integrating frontend and backend for real-world apps  
 
-> Your full-stack project is now **ready for deployment, CI/CD, or further feature development**.  
 
-![Celebrate](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
 
 ---
 
