@@ -6,8 +6,8 @@ A structured learning journal documenting my journey learning Docker through Dat
 This repository covers containers, images, Dockerfiles, networking, volumes, security, advanced builds, and Docker Compose.
 
 Author: Leta Kasahun  
-Study Plan: 1 hour per day  
-Duration: 20 Days
+Study Plan: 2 hour per day  
+Duration: 21 Days
 
 
 ---
