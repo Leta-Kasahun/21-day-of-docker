@@ -10,8 +10,6 @@ By the end of this day, you should be able to:
 
 
 
-
-
 ## Overview
 
 Docker can be installed on different operating systems:
