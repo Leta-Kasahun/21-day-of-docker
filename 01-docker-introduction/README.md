@@ -7,7 +7,6 @@
 - [Docker Cheat Sheet](https://dockerlabs.collabnix.com/docker/cheatsheet/)
 ---
 
-
 # What is Docker?
 
 - Docker is an **OS-level virtualization platform**, also called **containerization**, that allows applications to run in isolated environments called **containers**.  
