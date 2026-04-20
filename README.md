@@ -9,7 +9,6 @@ Author: Leta Kasahun
 Study Plan: 2 hour per day  
 Duration: 21 Days
 
-
 ---
 
 # Table of Contents
